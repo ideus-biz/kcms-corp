@@ -1,0 +1,38 @@
+{
+  "name": "ideus-biz/kcms-corp",
+  "description": "Linker package to iDeus KCMS packages",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://ideus.biz",
+  "authors": [
+    {
+      "name": "ultimus",
+      "email": "andrew@ideus.biz"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "kcms/package",
+        "version": "5.5",
+        "source": {
+          "type": "git",
+          "url":  "https://bitbucket.ideus.biz/scm/kcms/kcms_package.git",
+          "reference": "9a3008234f78a586af34641242fd4b120df39e58"
+        }
+      }
+    }
+  ],
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  }
+}
+
