@@ -25,6 +25,7 @@
     }
   ],
   "require": {
+    "kcms/package": "^5.5"
   },
   "require-dev": {
   },
